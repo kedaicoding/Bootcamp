@@ -1,0 +1,21 @@
+<div class="co">
+
+</div>
+
+<table>
+    <tr>
+        <th>Nama Lengkap</th>
+        <th>Instansi</th>
+        <th>Email</th>
+    </tr>
+
+    <% @registrations.each do |registration| %>
+
+    <tr>
+        <td><%= registration.nama_lengkap %></td>
+        <td><%= registration.nama_instansi %></td>
+        <td><%= registration.email %></td>
+    </tr>
+
+    <% end %>
+</table>

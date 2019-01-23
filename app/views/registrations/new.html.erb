@@ -1,0 +1,38 @@
+<div class="col-md-8 col-offset-col-md-2">
+    <%= form_for @registration do |f| %>
+
+    <div class="form-group">
+        <%= f.label :nama_lengkap, "Nama Lengkap" %>
+        <%= f.text_field :nama_lengkap , class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+        <%= f.label :pekerjaan, "Pekerjaan" %>
+        <%= f.text_field :pekerjaan , class: 'form-control' %>
+    </div>
+
+     <div class="form-group">
+        <%= f.label :nama_instansi, "Nama Instansi" %>
+        <%= f.text_field :nama_instansi , class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+        <%= f.label :email, "Email" %>
+        <%= f.email_field :email , class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+        <%= f.label :nomor_handphone, "Nomor Handphone" %>
+        <%= f.text_field :nomor_handphone , class: 'form-control' %>
+    </div>
+
+     <div class="form-group">
+        <%= f.label :alamat, "Alamat" %>
+        <%= f.text_area :alamat , class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+        <%= f.submit "Daftar" , class: 'btn btn-primary'  %>
+    </div>
+
+<% end %>

@@ -1,0 +1,17 @@
+Flow
+========================================================
+* Registrasi
+    -User daftar dan lihat jadwal Bootcamp
+    -Pihak kedaikoding dapat melihat anggota yang daftar
+========================================================
+
+Rancangan Table
+========================================================
+-Registrasi
+    -nama_lengkap
+    -pekerjaan
+    -nama_instansi
+    -email
+    -nomor_handphone
+    -alamat
+========================================================
